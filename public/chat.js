@@ -1,6 +1,6 @@
 $(function(){
     //make connection
-    var socket=io.connect('https://localhost:3000')
+    var socket=io.connect('https://chat1996.herokuapp.com/')
     //buttons and input
     var message=$("#message")
     var username=$("#username")
